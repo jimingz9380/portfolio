@@ -3,13 +3,14 @@ body{
     margin:0%;
 }
 
-
 #nav{
     background-color:rgb(53, 51, 51);
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .logo-size{
-    width: 75px;
+    width: 30%;
     padding:0.55%;
     background-color: antiquewhite;
 }
@@ -22,6 +23,7 @@ body{
     background-color: white;
     padding:20px;
     width:49.33%;
+    border: 4px solid black;
 }
 
 #mebox{
@@ -45,13 +47,34 @@ body{
     text-align: center;
 }
 
+#projecthead{
+    text-align: center;
+    background-color: rgb(53, 51, 51);
+    padding:20px;
+    border: 4px solid black;
+    color:white;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 a:link {
     color: greenyellow;
     background-color: transparent;
     text-decoration: none;
     }
 a:visited {
-    color: black;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
