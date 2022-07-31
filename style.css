@@ -8,6 +8,7 @@ body{
     font-size: 20px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 .logo-size{
     width: 30%;
@@ -29,8 +30,16 @@ body{
 #mebox{
     width:49.33%;
     text-align: center;
+    background-color:black;
+    color:white;
+    border:4px solid black;
 }
 
+.mehead{
+    background-color: grey;
+    color:white;
+    padding: 10px;
+}
 .linkbox{
     background-color: grey; 
     font-size: 15px;
@@ -72,7 +81,8 @@ a:link {
     color: greenyellow;
     background-color: transparent;
     text-decoration: none;
-    }
+}
+
 a:visited {
     color: white;
     background-color: transparent;
