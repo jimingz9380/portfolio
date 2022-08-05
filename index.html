@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
+    <script src="data.js" defer></script>
+    <script src="main.js" defer></script>
+    
 </head>
+
 <body>
 
     <nav id="nav">
@@ -19,11 +25,11 @@
             <a href="#">Contact</a>
         </div>
     </nav>
-    
-   
+
+
     <div id="twoside">
         <div class="profile">
-            <img src="images/myself.jpg" width="100%">
+            <img id="profileimg" src="images/myself.jpg">
             <div class="linkbox">
                 <a target="_blank" href="https://github.com/jimingz9380"> Github</a>
                 <a href="#"> LinkIn</a>
@@ -31,7 +37,7 @@
             </div>
         </div>
 
-        <div id="mebox"> 
+        <div id="mebox">
             <h1 class="mehead"> All About Me!</h1>
             <div class="column">
                 <div class="card">
@@ -47,7 +53,7 @@
 
             <div class="column">
                 <div class="card">
-                    <h3>I like running</h3>
+                    <h3>I join AllStarCode in 2022</h3>
                 </div>
                 <div class="card">
                     <h3> My favorite food is noodle </h3>
@@ -70,56 +76,29 @@
             </div>
 
         </div>
-    
+
     </div>
 
     <h1 id="projecthead"> Project</h1>
 
     <div id="project">
-        <div class="row1">
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
+        <div class="project-btn">
+            <div><button id="submit-btn1">Project 1</button></div>
+            <div><button id="submit-btn2">Project 2</button></div>
+            <div><button id="submit-btn3">Project 3</button></div>
         </div>
-        
-        <div class="row2">
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
-            <div>
-                <a href="#"><img src="#">charizard</a>
-                <p>
-                    this is my project about charizard
-                </p>
-            </div>
-        </div>
-       
-        
 
+        <div class="row1">
+            <h1 id="h1head">My Project</h1>
+            <img id="img" src="images/myself.jpg">
+            <p id="context">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <a id="link" href="https://jimingz9380.github.io/sep10-becoming-a-god-cyoa-/">Project</a>
+        </div>
     </div>
 </body>
+
 </html>
