@@ -19,6 +19,9 @@ function switchProject1(){
 
     let description = document.getElementById("context");
     description.innerHTML = `${P.projectcontext.cyoa}`;
+
+    let link = document.getElementById("link");
+    link.href = `${P.projectlink.link1}`;
 }
 
 function switchProject2(){
@@ -34,6 +37,9 @@ function switchProject2(){
     let description = document.getElementById("context");
     description.innerHTML = `${P.projectcontext.fp}`;
 
+    let link = document.getElementById("link");
+    link.href = `${P.projectlink.link2}`;
+
 }
 
 function switchProject3(){
@@ -48,5 +54,9 @@ function switchProject3(){
 
     let description = document.getElementById("context");
     description.innerHTML = `${P.projectcontext.fake_movie}`;
+
+
+    let link = document.getElementById("link");
+    link.href = `${P.projectlink.link3}`;
 
 }
